@@ -1,0 +1,406 @@
+# difficulty_boards.txt — 50 predefined Codenames boards across 10 difficulty levels
+# Format: BOARD <level>.<index>  then OUR / OPP / ASSASSIN / NEUTRAL lines
+# All words are from the official 400-word CODENAMES_WORDS list.
+# Each board: 8 our, 9 opponent, 1 assassin, 7 neutral = 25 unique words.
+#
+# Level descriptions:
+#   1  Tight Cluster      — all 8 our words share one clear theme
+#   2  Two Easy Clusters  — 4+4 split into two obvious groups
+#   3  Three Clusters     — 3+3+2, still clear themes
+#   4  Mixed Easy         — clusters with a few unrelated outliers
+#   5  Diverse            — 8 very different topics, no clusters
+#   6  Opponent Distract  — opponent has 1-2 words close to ours
+#   7  Heavy Overlap      — opponent has 3-4 words in same semantic space
+#   8  Assassin Adjacent  — assassin is related to 1-2 of our words
+#   9  Assassin Trap      — assassin is strongly related to 3+ of our words
+#  10  Nightmare          — heavy opponent overlap + assassin trap combined
+
+# =============================================================================
+# Level 1: Tight Cluster (Easy)
+# =============================================================================
+
+BOARD 1.1
+OUR: cat, dog, bear, eagle, hawk, lion, shark, whale
+OPP: laser, satellite, telescope, microscope, server, engine, battery, robot, screen
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+BOARD 1.2
+OUR: king, queen, crown, knight, princess, court, ruler, diamond
+OPP: cat, dog, bear, eagle, hawk, lion, shark, whale, rabbit
+ASSASSIN: death
+NEUTRAL: car, plane, van, ship, train, jet, ball
+
+BOARD 1.3
+OUR: france, germany, england, greece, berlin, london, rome, czech
+OPP: apple, orange, lemon, kiwi, berry, carrot, pumpkin, olive, nut
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, bell, bar
+
+BOARD 1.4
+OUR: apple, orange, lemon, kiwi, berry, carrot, pumpkin, olive
+OPP: france, germany, england, greece, berlin, london, rome, czech, india
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+BOARD 1.5
+OUR: shark, whale, seal, octopus, fish, ship, wave, net
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: fire
+NEUTRAL: chair, table, note, paper, card, ball, van
+
+# =============================================================================
+# Level 2: Two Easy Clusters (Easy)
+# =============================================================================
+
+BOARD 2.1
+OUR: bear, eagle, lion, shark, france, germany, london, rome
+OPP: saturn, jupiter, mercury, moon, star, space, satellite, telescope, laser
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+BOARD 2.2
+OUR: king, queen, crown, knight, apple, orange, lemon, kiwi
+OPP: cat, dog, bear, eagle, hawk, lion, shark, whale, rabbit
+ASSASSIN: poison
+NEUTRAL: car, plane, van, ship, train, jet, ball
+
+BOARD 2.3
+OUR: saturn, moon, star, space, piano, flute, note, concert
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: fire
+NEUTRAL: chair, table, paper, card, box, bell, bar
+
+BOARD 2.4
+OUR: shark, whale, seal, net, eagle, hawk, star, moon
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, card, ball, van
+
+BOARD 2.5
+OUR: car, plane, ship, train, eye, hand, heart, head
+OPP: piano, flute, note, concert, opera, conductor, band, string, bell
+ASSASSIN: bomb
+NEUTRAL: chair, table, paper, card, box, ball, fan
+
+# =============================================================================
+# Level 3: Three Clusters (3+3+2)
+# =============================================================================
+
+BOARD 3.1
+OUR: bear, eagle, lion, france, germany, england, apple, lemon
+OPP: saturn, jupiter, mercury, moon, star, space, satellite, telescope, laser
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+BOARD 3.2
+OUR: king, queen, crown, car, plane, train, piano, note
+OPP: cat, dog, bear, eagle, hawk, lion, shark, whale, rabbit
+ASSASSIN: poison
+NEUTRAL: chair, table, paper, card, box, bell, bar
+
+BOARD 3.3
+OUR: shark, whale, seal, telescope, laser, microscope, boot, cloak
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: fire
+NEUTRAL: chair, table, note, paper, card, ball, van
+
+BOARD 3.4
+OUR: eye, hand, heart, bomb, knife, missile, bank, hospital
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, ball, bell, bar
+
+BOARD 3.5
+OUR: saturn, jupiter, moon, apple, lemon, olive, cat, dog
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, box, bell
+
+# =============================================================================
+# Level 4: Mixed Easy (clusters + outliers)
+# =============================================================================
+
+BOARD 4.1
+OUR: bear, eagle, lion, shark, lab, microscope, bank, film
+OPP: saturn, jupiter, mercury, moon, star, space, satellite, telescope, laser
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+BOARD 4.2
+OUR: king, queen, crown, apple, lemon, olive, car, temple
+OPP: cat, dog, bear, eagle, hawk, lion, shark, whale, rabbit
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, box, bell
+
+BOARD 4.3
+OUR: car, plane, ship, train, piano, concert, eye, bank
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: fire
+NEUTRAL: chair, table, note, paper, card, ball, van
+
+BOARD 4.4
+OUR: shark, whale, seal, telescope, server, battery, note, foot
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: death
+NEUTRAL: chair, table, paper, card, box, bell, bar
+
+BOARD 4.5
+OUR: eye, hand, heart, bank, hospital, temple, calf, code
+OPP: saturn, jupiter, mercury, star, moon, cat, dog, bear, eagle
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# =============================================================================
+# Level 5: Diverse (8 completely different topics)
+# =============================================================================
+
+BOARD 5.1
+OUR: eagle, france, piano, shark, king, telescope, apple, bank
+OPP: cat, germany, concert, whale, crown, satellite, orange, hospital, note
+ASSASSIN: bomb
+NEUTRAL: chair, table, paper, card, box, bell, van
+
+BOARD 5.2
+OUR: lion, london, flute, seal, queen, microscope, lemon, temple
+OPP: dog, berlin, opera, octopus, knight, laser, berry, school, paper
+ASSASSIN: poison
+NEUTRAL: chair, table, note, card, box, bell, ball
+
+BOARD 5.3
+OUR: hawk, india, band, whale, crown, satellite, orange, hospital
+OPP: bear, france, opera, shark, king, telescope, apple, bank, car
+ASSASSIN: fire
+NEUTRAL: chair, table, note, paper, card, box, van
+
+BOARD 5.4
+OUR: cat, rome, string, penguin, princess, engine, carrot, stadium
+OPP: dog, london, band, kangaroo, ruler, laser, olive, school, park
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, card, box, bell
+
+BOARD 5.5
+OUR: bear, india, opera, seal, diamond, server, pumpkin, theater
+OPP: lion, egypt, concert, octopus, court, battery, ketchup, hotel, tower
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, box, ball
+
+# =============================================================================
+# Level 6: Opponent Distraction (1-2 opponent words near our theme)
+# =============================================================================
+
+BOARD 6.1
+OUR: cat, dog, horse, rabbit, duck, turkey, mouse, calf
+OPP: eagle, hawk, saturn, jupiter, mercury, moon, star, space, laser
+ASSASSIN: scorpion
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# eagle and hawk are also animals — 2 distractors in opponent
+
+BOARD 6.2
+OUR: king, queen, crown, knight, princess, court, ruler, diamond
+OPP: jack, gold, saturn, jupiter, mercury, moon, star, space, laser
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# jack (playing card rank) and gold (royal wealth) — 2 distractors
+
+BOARD 6.3
+OUR: apple, orange, lemon, kiwi, berry, carrot, pumpkin, olive
+OPP: honey, jam, france, germany, england, greece, india, egypt, mexico
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# honey and jam are food — 2 distractors
+
+BOARD 6.4
+OUR: france, germany, england, greece, berlin, london, rome, czech
+OPP: india, china, egypt, mexico, america, australia, europe, moscow, canada
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# europe and moscow are semi-European — subtle 2-word distraction
+
+BOARD 6.5
+OUR: telescope, microscope, laser, satellite, server, engine, battery, robot
+OPP: screen, lab, france, germany, england, greece, india, egypt, mexico
+ASSASSIN: fire
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# screen and lab are tech-adjacent — 2 distractors
+
+# =============================================================================
+# Level 7: Heavy Overlap (3-4 opponent words in same semantic space)
+# =============================================================================
+
+BOARD 7.1
+OUR: cat, dog, bear, eagle, lion, shark, whale, fish
+OPP: rabbit, mouse, hawk, duck, france, germany, england, london, rome
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# rabbit, mouse, hawk, duck are all animals — 4 overlap
+
+BOARD 7.2
+OUR: king, queen, crown, knight, princess, court, ruler, diamond
+OPP: jack, ring, gold, ivory, france, germany, england, london, rome
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# jack, ring, gold, ivory are royalty/wealth-adjacent — 4 overlap
+
+BOARD 7.3
+OUR: france, germany, england, greece, berlin, london, rome, czech
+OPP: india, china, egypt, mexico, america, africa, australia, canada, europe
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# all 9 opponent words are countries/regions — maximum semantic overlap
+
+BOARD 7.4
+OUR: piano, flute, note, concert, opera, conductor, band, string
+OPP: bell, beat, sound, dance, france, germany, england, london, rome
+ASSASSIN: fire
+NEUTRAL: chair, table, paper, card, box, van, car
+
+# bell, beat, sound, dance are music-adjacent — 4 overlap
+
+BOARD 7.5
+OUR: apple, orange, lemon, kiwi, berry, carrot, pumpkin, olive
+OPP: honey, jam, nut, chocolate, france, germany, england, london, rome
+ASSASSIN: poison
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# honey, jam, nut, chocolate are all food — 4 overlap
+
+# =============================================================================
+# Level 8: Assassin Adjacent (assassin related to 1-2 of our words)
+# =============================================================================
+
+BOARD 8.1
+OUR: cat, dog, horse, rabbit, duck, turkey, mouse, calf
+OPP: saturn, jupiter, mercury, moon, star, france, germany, england, london
+ASSASSIN: scorpion
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# scorpion is an animal — adjacent to domestic animals theme (1-2 connections)
+
+BOARD 8.2
+OUR: bark, root, palm, maple, log, rose, grass, forest
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: worm
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# worm lives in soil/roots — adjacent to root, bark, log (1-2 connections)
+
+BOARD 8.3
+OUR: whale, seal, fish, wave, pool, stream, spring, drop
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: net
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# net is used to catch fish/seal — adjacent to 2 of our words
+
+BOARD 8.4
+OUR: eagle, hawk, star, moon, plane, helicopter, jet, fly
+OPP: king, queen, crown, knight, princess, court, ruler, diamond, jack
+ASSASSIN: fall
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# fall — falling from sky, adjacent to fly/eagle/plane (1-2 connections)
+
+BOARD 8.5
+OUR: spy, agent, ninja, smuggler, thief, shadow, pistol, knife
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: bomb
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# bomb is a weapon like pistol/knife — adjacent to 2 of our words
+
+# =============================================================================
+# Level 9: Assassin Trap (assassin strongly related to 3+ of our words)
+# =============================================================================
+
+BOARD 9.1
+OUR: eye, hand, heart, head, foot, arm, tooth, spine
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: mouth
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# mouth is a body part — same category as all 8 our words
+
+BOARD 9.2
+OUR: bomb, knife, missile, pistol, laser, bolt, drill, spike
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: shot
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# shot is a weapon — related to missile/pistol/bomb/laser directly
+
+BOARD 9.3
+OUR: shark, whale, seal, fish, wave, pool, stream, spring
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: water
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# water is the overarching theme of all 8 our words
+
+BOARD 9.4
+OUR: france, germany, england, greece, india, egypt, london, berlin
+OPP: cat, dog, bear, eagle, hawk, lion, shark, whale, rabbit
+ASSASSIN: china
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# china is a country — same category as all our country/city words
+
+BOARD 9.5
+OUR: cricket, ring, court, field, pitch, match, net, pool
+OPP: france, germany, england, greece, india, egypt, mexico, china, canada
+ASSASSIN: game
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# game encompasses all our sports words — strongly adjacent to all 8
+
+# =============================================================================
+# Level 10: Nightmare (heavy opponent overlap + assassin trap)
+# =============================================================================
+
+BOARD 10.1
+OUR: cat, dog, bear, eagle, lion, shark, whale, fish
+OPP: rabbit, mouse, hawk, duck, france, germany, england, london, rome
+ASSASSIN: spider
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# 4 opponent words are also animals + assassin spider is also an animal
+
+BOARD 10.2
+OUR: king, queen, crown, knight, princess, court, ruler, diamond
+OPP: jack, ring, gold, ivory, france, germany, england, london, rome
+ASSASSIN: cross
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# 4 opponent words are royalty-adjacent + cross is heraldry/royal symbol
+
+BOARD 10.3
+OUR: apple, orange, lemon, kiwi, berry, carrot, pumpkin, olive
+OPP: honey, jam, nut, chocolate, france, germany, england, london, rome
+ASSASSIN: paste
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# 4 opponent words are food + paste is food (tomato paste, fruit paste)
+
+BOARD 10.4
+OUR: shark, whale, seal, fish, wave, pool, stream, spring
+OPP: net, port, drop, ice, france, germany, england, london, rome
+ASSASSIN: sink
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# 4 opponent words are water-adjacent + sink is directly water-related
+
+BOARD 10.5
+OUR: bomb, knife, missile, pistol, laser, bolt, drill, spike
+OPP: shot, charge, strike, fire, france, germany, england, london, rome
+ASSASSIN: death
+NEUTRAL: chair, table, note, paper, card, ball, bell
+
+# 4 opponent words are attack/weapon words + death is the result of all weapons
